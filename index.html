@@ -15,7 +15,12 @@
     <link rel="stylesheet" href="src/style/main.css" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="modules"></script>
+    <div id="timer"></div>
+
+    <script type="module">
+      import { App } from './src/App.js';
+
+      App.start();
+    </script>
   </body>
 </html>
